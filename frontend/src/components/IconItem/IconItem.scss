@@ -1,0 +1,34 @@
+.IconItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  .folder-icon {
+    font-size: 60px;
+    color: transparent;
+    text-shadow: 0 0 0 green;
+    margin-left: 0px;
+  }
+  .icon-and-title {
+    display: block;
+    clear: both;
+  }
+  .filename {
+    margin-left: 0px;
+    font-size: 16px;
+    border: none;
+    width: 50%;
+    color: #d4d4d4;
+    text-align: left;
+    word-break: break-all;
+  }
+}
+
+.hover:hover {
+  background: rgba(53, 53, 53, 0.8);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.click:active {
+  background: rgba(19, 19, 19, 0.456);
+}

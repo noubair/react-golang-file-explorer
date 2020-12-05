@@ -1,0 +1,46 @@
+.ExplorerArea {
+  display: block;
+  .Results,
+  .ResultsIcons {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    overflow-y: scroll;
+    height: 80vh !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 10fr));
+    grid-gap: 10px;
+    row-gap: 40px;
+    grid-auto-rows: 100px;
+
+  }
+  .previous-page-button, .next-page-button {
+    margin-left: 10px;
+    margin-top: 10px;
+    background: rgba(17, 17, 17, 0.5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 60px;
+  }
+  .Input {
+    .query-input {
+      margin-left: 10px;
+      margin-top: 0px;
+      height: 5px;
+      padding: 10px;
+      margin-bottom: 2px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      width: 50%;
+      box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1); /* top, transparent black, faked with gradient */
+      color: #e6db74;
+      background: rgba(19, 19, 19, 0.8);
+    }
+  }
+}

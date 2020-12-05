@@ -1,0 +1,33 @@
+.Wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  $transition_speed: 0.5s;
+  h3 {
+    padding: 10px;
+    color: rgb(130, 117, 117);
+  }
+  .side-bar {
+    height: 100% !important;
+    border-right: 1px solid;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.431);
+    transition: $transition_speed ease;
+  }
+  .content {
+    transition: $transition_speed ease;
+  }
+  .toggle-menu {
+    height: 50px;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 9rem;
+    width: 10px;
+    position: absolute;
+    outline: none;
+    z-index: 1;
+    background-color: rgba(64, 194, 133, 0.693);
+    border-color: rgba(64, 194, 133, 0.693);
+    border-left: 0;
+  }
+}
